@@ -1,0 +1,125 @@
+body {
+  background: #BCA9F5;
+  font-family: 'Inconsolata', monospace;
+}
+
+header {
+ min-height: 80vh;
+ background-image: url('images/bg-image-header.jpg');
+ background-repeat: no-repeat;
+ background-position: top center;
+ background-size: cover;
+ background-color: grey;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+section{
+  font-family: 'Inconsolata',sans-serif;
+
+}
+
+p{
+  margin: 50px;
+}
+
+.header-content-block{
+  padding: 22px;
+  border-style:solid 2px;
+  color: black;
+  background: rgba(170,170,170,0.6);
+  padding: 22px;
+  text-align: center;
+  font-family: 'UnifrakturCook', cursive;
+
+}
+
+title {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 6em;
+}
+
+.header-content-block {
+background:
+padding: 22px;
+}
+
+.header-content-block h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4em;
+
+}
+
+.bio {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.bio-content-block {
+  display: flex;
+  columns: 2;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+.comp {
+  color: pink;
+  text-align: center;
+}
+
+.comp-section-content {
+  background-color: #BCA9F5;
+  display: flex;
+  justify-content: space-around;
+  color: pink;
+  text-align: justify;
+  margin: 20px;
+
+}
+
+.portfolio {
+  background-color: #CEE3F6;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+
+}
+
+.portfolio-content {
+  display: flex;
+  columns: 2;
+ padding: 20px;
+ max-width: 480px;
+ margin: 20px;
+flex-wrap:wrap;
+position:relative;
+width: auto;
+justify-content:center;
+}
+
+
+
+.address{
+  font-family:'Roboto Mono', monospace;
+  font-size: 2em;
+  border-style:solid 2px;
+  color: #00FFBF;
+  background: rgba(170,170,170,0.6);
+  padding: 22px;
+  text-align:center;
+
+}
+
+.social-links {
+  font-family:'Roboto Mono', monospace;
+  font-size: 1em;
+  border-style:solid 2px;
+  color: #00FFBF;
+  background: rgba(170,170,170,0.6);
+  padding: 22px;
+  text-align:center;
+  }
